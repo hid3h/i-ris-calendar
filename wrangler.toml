@@ -1,0 +1,9 @@
+name = "i-ris-calendar"
+compatibility_date = "2023-12-18"
+compatibility_flags = ["nodejs_compat"]
+
+[build]
+command = "npx @cloudflare/next-on-pages"
+
+[[pages_build_output_dir]]
+value = ".vercel/output/static"
