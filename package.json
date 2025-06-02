@@ -28,5 +28,6 @@
 		"tailwindcss": "^4",
 		"typescript": "^5",
 		"wrangler": "^4.18.0"
-	}
+	},
+	"packageManager": "yarn@4.9.1"
 }
