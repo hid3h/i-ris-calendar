@@ -2658,7 +2658,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@opennextjs/aws@npm:3.6.4":
+"@opennextjs/aws@npm:^3.6.1":
   version: 3.6.4
   resolution: "@opennextjs/aws@npm:3.6.4"
   dependencies:
@@ -2684,12 +2684,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@opennextjs/cloudflare@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "@opennextjs/cloudflare@npm:1.1.0"
+"@opennextjs/cloudflare@npm:1.0.2":
+  version: 1.0.2
+  resolution: "@opennextjs/cloudflare@npm:1.0.2"
   dependencies:
     "@dotenvx/dotenvx": "npm:1.31.0"
-    "@opennextjs/aws": "npm:3.6.4"
+    "@opennextjs/aws": "npm:^3.6.1"
     enquirer: "npm:^2.4.1"
     glob: "npm:^11.0.0"
     ts-tqdm: "npm:^0.8.6"
@@ -2697,7 +2697,7 @@ __metadata:
     wrangler: ^4.14.0
   bin:
     opennextjs-cloudflare: dist/cli/index.js
-  checksum: 10c0/b781c60b5e46deba76bbd537f7917a9f64ecea42292803705085c1117a2ec3cbdcc136572a6a3e9f8904297ecefbe371094378400b67514425b105b250cba228
+  checksum: 10c0/df55051cdb31d944fb9e0e5fac091ad297e773df18230e52c891ed4ce90ff9b3bd8fccbe7429849284e958bcdbbd9efb32109336137003f5dfde6717d11d0ea6
   languageName: node
   linkType: hard
 
@@ -6295,7 +6295,7 @@ __metadata:
   resolution: "i-ris-calendar@workspace:."
   dependencies:
     "@eslint/eslintrc": "npm:^3"
-    "@opennextjs/cloudflare": "npm:^1.1.0"
+    "@opennextjs/cloudflare": "npm:1.0.2"
     "@tailwindcss/postcss": "npm:^4"
     "@types/node": "npm:^20"
     "@types/react": "npm:^19"
